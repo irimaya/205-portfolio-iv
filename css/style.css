@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	font-size: 1.8rem;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding-bottom: 50px;
+}
+
+h4 {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	font-weight: 500;
+}
+
+p {
+	font-size: 1rem;
+	margin: 10px 0;
+	line-height: 1.7em;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+	margin: auto;
+	max-width: 1300px;
+	overflow: auto;
+	padding: 0 20px;
+}
+
+.large {
+	font-size: 20px;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 15px;
+	padding: 15px 40px;
+	letter-spacing: 1px;
+}
+
+.btn-outline {
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.btn-outline:hover {
+	background: #fff;
+	color: #000;
+}
+
+/* Navbar */
+#navbar {
+	overflow: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#navbar a {
+	color: #000;
+}
+
+#navbar .logo {
+	float: left;
+	padding-top: 12px;
+}
+
+#navbar img {
+	height: 40px;
+}
+
+#navbar ul {
+	list-style: none;
+	float: right;
+}
+
+#navbar ul li {
+	float: left;
+}
+
+#navbar ul li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Showcase */
+#showcase {
+	background: url('/img/showcase.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	text-align: center;
+	padding: 100px;
+}
+
+#showcase .btn {
+	margin-top: 250px;
+}
+
+/* Projects */
+#projects {
+	padding: 80px 0;
+}
+
+.projects-row {
+	display: flex;
+}
+
+.projects-row img {
+	width: 100%;
+}
+
+/* About */
+#about {
+	padding: 80px 0;
+	background: #f9f9f9;
+}
+
+.about-row {
+	display: flex;
+}
+
+.about-row-experience,
+.about-row-me {
+	width: 50%;
+	padding-left: 50px;
+}
+
+/* Contact */
+#contact {
+	padding: 80px 0;
+}
+
+.contact-row {
+	display: flex;
+}
+.contact-row-icon {
+	width: 33%;
+	text-align: center;
+}
+
+.contact-row-icon img {
+	height: 60px;
+}
+
+/* Footer */
+#mainfooter {
+	background: #f9f9f9;
+	text-align: center;
+	padding: 30px;
+}
